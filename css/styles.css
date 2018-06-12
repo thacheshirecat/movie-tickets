@@ -1,0 +1,6 @@
+#movie-results {
+  display: none;
+}
+.under18 .over18 {
+  display:none;
+}

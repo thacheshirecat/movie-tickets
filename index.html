@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>WATCHA SEEIN?</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Get Your TIX</h1>
+      <div id="tick">
+        <form id="ticket-form">
+
+          <div class="form-group">
+            <label for="user-age">Enter Age</label>
+            <input id="user-age" class="form-control" type="number">
+          </div>
+          <div class="form-group">
+            <select class="form-control" id="movie">
+              <option>Casper 7 (G)</option>
+              <option id="rerelease">Brave Little Toaster (G)</option>
+              <option id="rerelease-two">A Boring and Dry Documentary (NR)</option>
+              <option>Kambucha (PG-13)</option>
+              <option>Action Dudes 9 (PG-13)</option>
+              <option>Cry Me A River (PG-13)</option>
+              <option>Shrek 14: Get Shreked (R)</option>
+              <option>Three Fast Seven You: Paul's Ghost (R)</option>
+              <option>Atlas Shrugged 4: One More Shrugg (R)</option>
+            </select>
+            <select class="form-control" id="movie-time">
+              <option id="matinee">12PM</option>
+              <option id="matinee-two">2PM</option>
+              <option>4PM</option>
+              <option>6PM</option>
+              <option>8PM</option>
+              <option>10PM</option>
+            </select>
+          </div>
+
+
+
+          <button type="submit" class="btn btn-success">Submit!</button>
+        </form>
+      </div>
+
+
+      <div>
+        <ul id="movie-results">
+
+        </ul>
+      </div>
+    </div>
+
+  </body>
+</html>
